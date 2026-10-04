@@ -216,15 +216,26 @@ button:hover {
   text-align: center;
 }
 
-/* Footer */
+/* FOOTER */
 
 .footer {
+  height: 280px;
   background: #222;
   color: white;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  padding-bottom: 25px;
   text-align: center;
-  padding: 20px;
 }
 
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
 /* Responsive Design */
 
 @media (max-width: 768px) {
@@ -756,4 +767,4 @@ button:hover {
   .about-box {
     padding: 25px;
   }
-}
+} 

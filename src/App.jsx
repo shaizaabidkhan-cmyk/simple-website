@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 import Contact from "./pages/contact";
 
 function App() {
